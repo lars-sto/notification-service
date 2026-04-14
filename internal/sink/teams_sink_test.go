@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/model"
 )
 
 func TestNewTeamsSink_EmptyURLReturnsError(t *testing.T) {

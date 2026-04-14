@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/model"
 )
 
 var ErrTeamsWebhookFailed = errors.New("teams webhook request failed")

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/model"
 )
 
 type stubSink struct {

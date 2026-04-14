@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"notification-service/internal/httpapi"
-	"notification-service/internal/service"
-	"notification-service/internal/sink"
-	"notification-service/internal/telemetry"
+	"github.com/lars-sto/notification-service/internal/httpapi"
+	"github.com/lars-sto/notification-service/internal/service"
+	"github.com/lars-sto/notification-service/internal/sink"
+	"github.com/lars-sto/notification-service/internal/telemetry"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"

@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"notification-service/internal/service"
-	"notification-service/internal/sink"
+	"github.com/lars-sto/notification-service/internal/service"
+	"github.com/lars-sto/notification-service/internal/sink"
 )
 
 func setupHandler() *Handler {

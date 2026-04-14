@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"notification-service/internal/telemetry"
+	"github.com/lars-sto/notification-service/internal/telemetry"
 
 	"github.com/google/uuid"
 )

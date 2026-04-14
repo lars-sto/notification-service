@@ -2,7 +2,7 @@ package sink
 
 import (
 	"context"
-	"notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/model"
 )
 
 type NotificationSink interface {

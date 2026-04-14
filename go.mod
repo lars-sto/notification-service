@@ -1,4 +1,4 @@
-module notification-service
+module github.com/lars-sto/notification-service
 
 go 1.25.4
 

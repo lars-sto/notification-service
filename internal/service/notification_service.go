@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
-	"notification-service/internal/model"
-	"notification-service/internal/sink"
-	"notification-service/internal/telemetry"
+	"github.com/lars-sto/notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/sink"
+	"github.com/lars-sto/notification-service/internal/telemetry"
 )
 
 var (

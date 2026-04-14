@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"notification-service/internal/model"
-	"notification-service/internal/service"
+	"github.com/lars-sto/notification-service/internal/model"
+	"github.com/lars-sto/notification-service/internal/service"
 )
 
 type Handler struct {
